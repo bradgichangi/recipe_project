@@ -29,7 +29,7 @@ def show_ingredients():
     else:
         return 'Ingredient'
 
-@app.route('/allrecipes')
+@app.route('/recipes')
 def all_recipes():
     return data['recipes']
 

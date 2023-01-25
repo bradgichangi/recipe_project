@@ -1,7 +1,17 @@
 {
     "recipes":[
         {
-            "name": "",
+            "name": "Lasagne",
+            "description": "",
+            "ingredients": []
+        },
+        {
+            "name": "Cake",
+            "description": "",
+            "ingredients": []
+        },
+        {
+            "name": "Katsu Curry",
             "description": "",
             "ingredients": []
         }
