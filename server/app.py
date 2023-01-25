@@ -16,14 +16,14 @@ def default():
     return 'Recipes API is running!'
 
 @app.route('/recipe', methods=['GET', 'POST'])
-def show_characters():
+def show_recipes():
     if request.method == 'POST':
         return 'Recipe POST request'
     else:
         return 'Recipe'
 
 @app.route('/ingredient', methods=['GET', 'POST'])
-def show_characters():
+def show_ingredients():
     if request.method == 'POST':
         return 'Ingredient POST request'
     else:
